@@ -1,0 +1,453 @@
+{
+  "HCT": {
+    "nazwa_pl": "Hematokryt",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "male":    { "low": 40.0, "high": 54.0 },
+      "female":  { "low": 37.0, "high": 47.0 },
+      "default": { "low": 37.0, "high": 54.0 }
+    }
+  },
+  "HGB": {
+    "nazwa_pl": "Hemoglobina",
+    "jednostka_referencyjna": "g/dl",
+    "jednostki_alias": ["g/dl", "G/dl", "g/dL"],
+    "zakresy": {
+      "male":    { "low": 13.5, "high": 17.5 },
+      "female":  { "low": 12.0, "high": 16.0 },
+      "default": { "low": 12.0, "high": 17.5 }
+    }
+  },
+  "WBC": {
+    "nazwa_pl": "Leukocyty",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l", "10^9/l"],
+    "przeliczniki": {
+      "G/l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 4.0, "high": 10.0 }
+    }
+  },
+  "PLT": {
+    "nazwa_pl": "Płytki krwi",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l", "10^9/l"],
+    "przeliczniki": {
+      "G/l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 150.0, "high": 400.0 }
+    }
+  },
+  "RBC": {
+    "nazwa_pl": "Erytrocyty",
+    "jednostka_referencyjna": "x10^12/l",
+    "jednostki_alias": ["x10^12/l", "x10\\^12/l", "T/l", "10^12/l"],
+    "przeliczniki": {
+      "T/l": 1.0
+    },
+    "zakresy": {
+      "male":    { "low": 4.5, "high": 5.9 },
+      "female":  { "low": 4.0, "high": 5.2 },
+      "default": { "low": 4.0, "high": 5.9 }
+    }
+  },
+  "MCV": {
+    "nazwa_pl": "Średnia objętość erytrocytu",
+    "jednostka_referencyjna": "fl",
+    "jednostki_alias": ["fl"],
+    "zakresy": {
+      "default": { "low": 80.0, "high": 100.0 }
+    }
+  },
+  "MCH": {
+    "nazwa_pl": "Średnia masa hemoglobiny w erytrocycie",
+    "jednostka_referencyjna": "pg",
+    "jednostki_alias": ["pg"],
+    "zakresy": {
+      "default": { "low": 27.0, "high": 33.0 }
+    }
+  },
+  "MCHC": {
+    "nazwa_pl": "Średnie stężenie hemoglobiny w erytrocycie",
+    "jednostka_referencyjna": "g/dl",
+    "jednostki_alias": ["g/dl", "G/dl", "g/dL"],
+    "zakresy": {
+      "default": { "low": 32.0, "high": 36.0 }
+    }
+  },
+  "RDW": {
+    "nazwa_pl": "Wskaźnik anizocytozy erytrocytów",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 11.5, "high": 14.5 }
+    }
+  },
+  "MONO": {
+    "nazwa_pl": "Monocyty (wartość bezwzględna)",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l"],
+    "przeliczniki": {
+      "G/l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 0.2, "high": 1.0 }
+    }
+  },
+  "% MONO": {
+    "nazwa_pl": "Monocyty (%)",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 2.0, "high": 10.0 }
+    }
+  },
+  "MPV": {
+    "nazwa_pl": "Średnia objętość płytki krwi",
+    "jednostka_referencyjna": "fl",
+    "jednostki_alias": ["fl"],
+    "zakresy": {
+      "default": { "low": 7.5, "high": 12.5 }
+    }
+  },
+  "IG": {
+    "nazwa_pl": "Niedojrzałe granulocyty (wartość bezwzględna)",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l", "g/ l", "10^3/uL"],
+    "przeliczniki": {
+      "G/l": 1.0,
+      "g/ l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 0.0, "high": 0.03 }
+    }
+  },
+  "BAZO": {
+    "nazwa_pl": "Bazofile (wartość bezwzględna)",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l"],
+    "przeliczniki": {
+      "G/l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 0.0, "high": 0.1 }
+    }
+  },
+  "% BAZO": {
+    "nazwa_pl": "Bazofile (%)",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 0.0, "high": 1.0 }
+    }
+  },
+  "Na": {
+    "nazwa_pl": "Sód",
+    "jednostka_referencyjna": "mmol/l",
+    "jednostki_alias": ["mmol/l", "mmol/L", "mEq/l", "mEq/L"],
+    "przeliczniki": {
+      "mEq/l": 1.0,
+      "mEq/L": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 136.0, "high": 145.0 }
+    }
+  },
+  "K": {
+    "nazwa_pl": "Potas",
+    "jednostka_referencyjna": "mmol/l",
+    "jednostki_alias": ["mmol/l", "mmol/L", "mEq/l", "mEq/L"],
+    "przeliczniki": {
+      "mEq/l": 1.0,
+      "mEq/L": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 3.5, "high": 5.1 }
+    }
+  },
+  "NEUT": {
+    "nazwa_pl": "Neutrofile (wartość bezwzględna)",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l"],
+    "przeliczniki": {
+      "G/l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 1.8, "high": 7.5 }
+    }
+  },
+  "% NEUT": {
+    "nazwa_pl": "Neutrofile (%)",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 40.0, "high": 75.0 }
+    }
+  },
+  "LYMPH": {
+    "nazwa_pl": "Limfocyty (wartość bezwzględna)",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l"],
+    "przeliczniki": {
+      "G/l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 1.0, "high": 4.0 }
+    }
+  },
+  "% LYMPH": {
+    "nazwa_pl": "Limfocyty (%)",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 20.0, "high": 45.0 }
+    }
+  },
+  "EO": {
+    "nazwa_pl": "Eozynofile (wartość bezwzględna)",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l"],
+    "przeliczniki": {
+      "G/l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 0.0, "high": 0.5 }
+    }
+  },
+  "% EO": {
+    "nazwa_pl": "Eozynofile (%)",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 0.0, "high": 5.0 }
+    }
+  },
+  "NRBC": {
+    "nazwa_pl": "Erytroblasty (wartość bezwzględna)",
+    "jednostka_referencyjna": "x10^9/l",
+    "jednostki_alias": ["x10^9/l", "x10\\^9/l", "G/l"],
+    "przeliczniki": {
+      "G/l": 1.0
+    },
+    "zakresy": {
+      "default": { "low": 0.0, "high": 0.01 }
+    }
+  },
+  "%NRBC": {
+    "nazwa_pl": "Erytroblasty (%)",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 0.0, "high": 0.1 }
+    }
+  },
+  "% IG": {
+    "nazwa_pl": "Niedojrzałe granulocyty (%)",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 0.0, "high": 0.5 }
+    }
+  },
+  "KREA": {
+    "nazwa_pl": "Kreatynina",
+    "jednostka_referencyjna": "mg/dl",
+    "jednostki_alias": ["mg/dl", "mg/dL"],
+    "zakresy": {
+      "male":    { "low": 0.7, "high": 1.3 },
+      "female":  { "low": 0.5, "high": 1.1 },
+      "default": { "low": 0.5, "high": 1.3 }
+    }
+  },
+  "PDW": {
+    "nazwa_pl": "Wskaźnik anizocytozy płytek krwi",
+    "jednostka_referencyjna": "fl",
+    "jednostki_alias": ["fl"],
+    "zakresy": {
+      "default": { "low": 9.0, "high": 17.0 }
+    }
+  },
+  "PLT CT": {
+    "nazwa_pl": "Płytki krwi — skrzep dużych",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 0.19, "high": 0.39 }
+    }
+  },
+  "P-LCR": {
+    "nazwa_pl": "Frakcja dużych płytek krwi",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 15.0, "high": 35.0 }
+    }
+  },
+  "CRP": {
+    "nazwa_pl": "Białko C-reaktywne",
+    "jednostka_referencyjna": "mg/l",
+    "jednostki_alias": ["mg/l", "mg/L"],
+    "zakresy": {
+      "default": { "low": 0.0, "high": 5.0 }
+    }
+  },
+  "eGFR -MDRD": {
+    "nazwa_pl": "Szacowany wskaźnik filtracji kłębuszkowej (MDRD)",
+    "jednostka_referencyjna": "ml/min/1,73 m",
+    "jednostki_alias": ["ml/min/1,73 m", "ml/min/1.73m2", "mL/min/1.73m²"],
+    "zakresy": {
+      "default": { "low": 60.0, "high": 999.0 }
+    }
+  },
+  "eGFR CKD": {
+    "nazwa_pl": "Szacowany wskaźnik filtracji kłębuszkowej (CKD-EPI)",
+    "jednostka_referencyjna": "ml/min/1,73 m",
+    "jednostki_alias": ["ml/min/1,73 m"],
+    "zakresy": {
+      "default": { "low": 60.0, "high": 999.0 }
+    }
+  },
+  "ALT": {
+    "nazwa_pl": "Aminotransferaza alaninowa",
+    "jednostka_referencyjna": "U/l",
+    "jednostki_alias": ["U/l", "U/L"],
+    "zakresy": {
+      "male":    { "low": 0.0, "high": 41.0 },
+      "female":  { "low": 0.0, "high": 33.0 },
+      "default": { "low": 0.0, "high": 41.0 }
+    }
+  },
+  "AST": {
+    "nazwa_pl": "Aminotransferaza asparaginianowa",
+    "jednostka_referencyjna": "U/l",
+    "jednostki_alias": ["U/l", "U/L"],
+    "zakresy": {
+      "male":    { "low": 0.0, "high": 40.0 },
+      "female":  { "low": 0.0, "high": 32.0 },
+      "default": { "low": 0.0, "high": 40.0 }
+    }
+  },
+  "BIL": {
+    "nazwa_pl": "Bilirubina całkowita",
+    "jednostka_referencyjna": "mg/dl",
+    "jednostki_alias": ["mg/dl", "mg/dL"],
+    "zakresy": {
+      "default": { "low": 0.2, "high": 1.2 }
+    }
+  },
+  "INR": {
+    "nazwa_pl": "Międzynarodowy wskaźnik znormalizowany",
+    "jednostka_referencyjna": "",
+    "jednostki_alias": [""],
+    "zakresy": {
+      "default": { "low": 0.8, "high": 1.2 }
+    }
+  },
+  "W PT": {
+    "nazwa_pl": "Wskaźnik protrombinowy",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 70.0, "high": 120.0 }
+    }
+  },
+  "PT": {
+    "nazwa_pl": "Czas protrombinowy",
+    "jednostka_referencyjna": "sek",
+    "jednostki_alias": ["sek", "s"],
+    "zakresy": {
+      "default": { "low": 10.0, "high": 14.0 }
+    }
+  },
+  "BUN": {
+    "nazwa_pl": "Azot mocznikowy",
+    "jednostka_referencyjna": "mg/dl",
+    "jednostki_alias": ["mg/dl", "mg/dL"],
+    "zakresy": {
+      "default": { "low": 6.0, "high": 20.0 }
+    }
+  },
+  "pH": {
+    "nazwa_pl": "pH krwi",
+    "jednostka_referencyjna": "",
+    "jednostki_alias": [""],
+    "zakresy": {
+      "default": { "low": 7.35, "high": 7.45 }
+    }
+  },
+  "APTT": {
+    "nazwa_pl": "Czas częściowej tromboplastyny po aktywacji",
+    "jednostka_referencyjna": "sek",
+    "jednostki_alias": ["sek", "s"],
+    "zakresy": {
+      "default": { "low": 26.0, "high": 40.0 }
+    }
+  },
+  "pCO2": {
+    "nazwa_pl": "Ciśnienie parcjalne CO2",
+    "jednostka_referencyjna": "mmHg",
+    "jednostki_alias": ["mmHg"],
+    "zakresy": {
+      "default": { "low": 35.0, "high": 45.0 }
+    }
+  },
+  "BE(ecf)": {
+    "nazwa_pl": "Nadmiar zasad (płyn zewnątrzkomórkowy)",
+    "jednostka_referencyjna": "mmol/l",
+    "jednostki_alias": ["mmol/l", "mmol/L"],
+    "zakresy": {
+      "default": { "low": -2.0, "high": 3.0 }
+    }
+  },
+  "HCO3act": {
+    "nazwa_pl": "Wodorowęglany aktualne",
+    "jednostka_referencyjna": "mmol/l",
+    "jednostki_alias": ["mmol/l", "mmol/L"],
+    "zakresy": {
+      "default": { "low": 22.0, "high": 26.0 }
+    }
+  },
+  "HCO3std": {
+    "nazwa_pl": "Wodorowęglany standardowe",
+    "jednostka_referencyjna": "mmol/l",
+    "jednostki_alias": ["mmol/l", "mmol/L"],
+    "zakresy": {
+      "default": { "low": 22.0, "high": 26.0 }
+    }
+  },
+  "ctCO2": {
+    "nazwa_pl": "Całkowity CO2",
+    "jednostka_referencyjna": "mmol/l",
+    "jednostki_alias": ["mmol/l", "mmol/L"],
+    "zakresy": {
+      "default": { "low": 23.0, "high": 27.0 }
+    }
+  },
+  "BE(B)": {
+    "nazwa_pl": "Nadmiar zasad (krew)",
+    "jednostka_referencyjna": "mmol/l",
+    "jednostki_alias": ["mmol/l", "mmol/L"],
+    "zakresy": {
+      "default": { "low": -2.0, "high": 3.0 }
+    }
+  },
+  "W APTT": {
+    "nazwa_pl": "Wskaźnik APTT",
+    "jednostka_referencyjna": "",
+    "jednostki_alias": [""],
+    "zakresy": {
+      "default": { "low": 0.8, "high": 1.2 }
+    }
+  },
+  "O2SAT": {
+    "nazwa_pl": "Saturacja tlenu",
+    "jednostka_referencyjna": "%",
+    "jednostki_alias": ["%"],
+    "zakresy": {
+      "default": { "low": 95.0, "high": 100.0 }
+    }
+  }
+}
